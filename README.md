@@ -27,10 +27,11 @@ Step 8: End the program.
 ```
 ## Program:
 ```
+
 /*
 Program to find the solution of a matrix using Gaussian Elimination.
-Developed by: 
-RegisterNumber: 
+Developed by: JERUSHLIN JOSE JB
+RegisterNumber: 212222240039
 */
 import numpy as np
 n=int(input())
@@ -52,6 +53,7 @@ for i in range (n-2,-1,-1):
     res[i]=res[i]/arr[i][i]
 for i in range(n):
     print("X%d = %0.2f" %(i,res[i]),end=" ")
+    
 ```
 
 ## Output:
